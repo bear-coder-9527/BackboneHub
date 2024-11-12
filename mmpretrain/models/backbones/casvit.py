@@ -7,7 +7,7 @@ from torch import einsum
 from torch.nn import functional as F
 from itertools import chain
 from einops import rearrange
-
+from itertools import chain
 
 from mmcv.cnn import Linear
 from mmcv.cnn.bricks import (build_activation_layer, build_conv_layer,
