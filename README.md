@@ -20,11 +20,11 @@ The `main` branch works with **PyTorch 1.8+**.
 Below are quick steps for installation:
 
 ```shell
-conda create -n open-mmlab python=3.8 pytorch==1.10.1 torchvision==0.11.2 cudatoolkit=11.3 -c pytorch -y
-conda activate open-mmlab
+conda create -n BackboneHub python=3.8 pytorch==1.10.1 torchvision==0.11.2 cudatoolkit=11.3 -c pytorch -y
+conda activate BackboneHub
 pip install openmim
-git clone https://github.com/open-mmlab/mmpretrain.git
-cd mmpretrain
+git clone https://github.com/bear-coder-9527/BackboneHub.git
+cd BackboneHub
 mim install -e .
 ```
 
