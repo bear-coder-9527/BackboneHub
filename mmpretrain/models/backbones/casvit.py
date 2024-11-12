@@ -5,7 +5,7 @@ import torch
 import torch.nn as nn
 from torch import einsum
 from torch.nn import functional as F
-
+from itertools import chain
 from einops import rearrange
 
 

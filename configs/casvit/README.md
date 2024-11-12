@@ -24,6 +24,19 @@ Vision Transformers (ViTs) mark a revolutionary advance in neural networks with 
 
 Use the model according to the [docs](https://mmpretrain.readthedocs.io/en/latest/user_guides/inference.html).
 
+```python
+import torch
+from mmpretrain import get_model
+
+model = get_model('casvit-small_8xb256_in1k', pretrained="your_local_checkpoint_path")
+inputs = torch.rand(1, 3, 224, 224)
+out = model(inputs)
+print(type(out))
+# To extract features.
+feats = model.extract_feat(inputs)
+print(type(feats))
+```
+
 
 **Use the official ckpt**
 
