@@ -74,7 +74,7 @@ python tools/test.py configs/casvit/casvit-small_8xb256_in1k.py path/to/pth
 <img src="fig2.png" width="90%"/>
 </div>
 
-*Models are converted from the [official repo](https://github.com/Tianfang-Zhang/CAS-ViT). The config files of these models are only for inference. Is haven't reproduce the training results.*
+*Models are converted from the [official repo](https://github.com/Tianfang-Zhang/CAS-ViT). The config files of these models are only for inference. I haven't reproduce the training results.*
 
 ## Citation
 
