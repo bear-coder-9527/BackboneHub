@@ -13,7 +13,7 @@ The `main` branch works with **PyTorch 1.8+**.
 ## What's new
 
 🌟 Support [CAS-ViT](https://arxiv.org/abs/2408.03703).
-- More detials in <a href="configs/casvit">casvit</a>.
+- More details <a href="configs/casvit">CAS-ViT</a>.
 
 ## Installation
 
