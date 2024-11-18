@@ -1,4 +1,4 @@
-# Conformer
+# CAS-ViT
 
 > [CAS-ViT: Convolutional Additive Self-attention Vision Transformers for Efficient Mobile Applications](https://arxiv.org/abs/2408.03703)
 
